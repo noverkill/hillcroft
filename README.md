@@ -14,8 +14,9 @@ How to use:
 - setup and run Mailhog or similar to test email sending
   and configure realted params:
     E.g.
-    MAIL_HOST=127.0.0.1
-    MAIL_FROM_ADDRESS="${APP_NAME}@localhost"
+    MAIL_HOST=mailhog
+    MAIL_PORT=1025
+    MAIL_DASHBOARD_PORT=8025
 
 - set from address for the no stock product email
     E.g. PRODUCT_MAIL_TO=products@test.com
