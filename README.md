@@ -32,6 +32,6 @@ How to use:
    and see the imported products in a data table
 
 9, Using the command line to import products:
-   sail artisan xml:import <path to xml>
+   sail artisan xml:import [path-to-xml-file]
 
 10, Check mailhog web interface for emails sent
