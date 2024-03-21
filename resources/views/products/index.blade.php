@@ -36,13 +36,13 @@
         </form>
         @if (session('success'))
             <div style="color: green;">
-                {{ session('success') }}
+                {!! nl2br(e(session('success'))) !!}
             </div>
         @endif
 
         @if (session('error'))
             <div style="color: red;">
-                {{ session('error') }}
+                {!! nl2br(e(session('error'))) !!}
             </div>
         @endif
     </section>
